@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "function.h"
-#include "../Pointers/pointer.h"
+//#include "../Pointers/pointer.h"
 
 void runFunctions()
 {
