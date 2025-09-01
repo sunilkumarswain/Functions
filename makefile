@@ -1,12 +1,7 @@
 CC = gcc
 CFLAGS  = -g -Wall
 
-OBJS: function.o funcExer1.o funcExer2.o funcExer3.o funcExer4.o funcExer5.o funcExer6.o funcExer7.o
-
-all: functions
-
-functions: $(OBJS)
-	$(CC) $(CFLAGS) -o functions $(OBJS)
+all: function.o funcExer1.o funcExer2.o funcExer3.o funcExer4.o funcExer5.o funcExer6.o funcExer7.o
 
 function.o: function.c function.h 
 	$(CC) $(CFLAGS) -c function.c	
